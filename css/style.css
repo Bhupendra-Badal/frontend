@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    height: 8vh;
+    background-color: black;
+}
+.header img{
+    margin: 6px;
+    padding: 6px;
+}
+.container{
+    min-height:calc(100vh - 8vh);
+    background-color: black;
+}
+.box img{
+    position: relative;
+    top:60px;
+    left: 80px;
+    height:600px;
+    width:500px ;
+}
+.form{
+    height: 600px;
+    width: 500px;
+    background-color: white;
+    position: relative;
+    left: 800px;
+    bottom:545px;
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+
